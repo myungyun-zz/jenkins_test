@@ -128,7 +128,7 @@ public class Controller {
 			//List<BoardVO> boardListShow = boardMapper.boardList();
 			return new ModelAndView("boardUpdate"+bno);
 		}
-		
+
 		//게시글 삭제
 		@RequestMapping(value="/delete", method=RequestMethod.DELETE)
 		public ModelAndView boardDelete(@RequestParam(value="page")int bno) throws Exception{
@@ -137,4 +137,5 @@ public class Controller {
 			
 			return new ModelAndView("redirect://localhost:8080/board");
 		}
+		
 }
