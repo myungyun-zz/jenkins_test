@@ -72,7 +72,6 @@ public class Controller {
 		String writer = req.getParameter("writer");
 		String content = req.getParameter("content");*/
 		
-		
 		board.setSubject(subject);
 		board.setContent(content);
 		board.setWriter(writer);
