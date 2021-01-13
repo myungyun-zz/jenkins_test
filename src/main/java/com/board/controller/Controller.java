@@ -55,7 +55,6 @@ public class Controller {
 				@RequestParam(value = "writer",required=true) String writer,
 				@RequestParam(value = "content",required=true) String content*/) throws Exception {
 		
-		
 		/*System.out.println(subject.toString());
 		System.out.println(writer.toString());
 		System.out.println(content.toString());*/
